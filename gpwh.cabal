@@ -1,0 +1,43 @@
+cabal-version: >= 1.10
+
+-- This file has been generated from package.yaml by hpack version 0.29.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: aed95f961e10c2ab909c03113733996945cebd58d3270a477b10d06dbe098b2b
+
+name:           gpwh
+version:        0.0.0
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  exposed-modules:
+      Ch01.FirstProg
+  other-modules:
+      Paths_gpwh
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wredundant-constraints -Wtabs
+  build-depends:
+      base
+  default-language: Haskell2010
+
+executable ch01-01
+  main-is: app/ch01/hello.hs
+  other-modules:
+      Paths_gpwh
+  ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wredundant-constraints -Wtabs
+  build-depends:
+      base
+  default-language: Haskell2010
+
+executable ch01-email
+  main-is: app/ch01/FirstProg.hs
+  other-modules:
+      Paths_gpwh
+  ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wredundant-constraints -Wtabs
+  build-depends:
+      base
+    , gpwh
+  default-language: Haskell2010

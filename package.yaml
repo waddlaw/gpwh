@@ -1,0 +1,23 @@
+name: gpwh
+dependencies:
+  - base
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Wincomplete-uni-patterns
+- -Wincomplete-record-updates
+- -Wnoncanonical-monad-instances
+- -Wredundant-constraints
+- -Wtabs
+
+library:
+  source-dirs: src
+
+executables:
+  ch01-01:
+    main: app/ch01/hello.hs
+  ch01-email:
+    main: app/ch01/FirstProg.hs
+    dependencies:
+      - gpwh
