@@ -4,7 +4,7 @@ cabal-version: >= 1.10
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 99ea3c270ae5926b861dc70abcf8a0d92d9c6156eb2ecb4941c169c164d311f7
+-- hash: d2c1ce4e6563816468d750faf8fad719cb6563d4b354cf7ce8554e224c075cd0
 
 name:           gpwh
 version:        0.0.0
@@ -15,6 +15,7 @@ library
   exposed-modules:
       Lesson01.FirstProg
       Lesson02
+      Lesson03
   other-modules:
       Paths_gpwh
   hs-source-dirs:
