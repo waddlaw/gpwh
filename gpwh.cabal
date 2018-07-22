@@ -4,7 +4,7 @@ cabal-version: >= 1.10
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: aed95f961e10c2ab909c03113733996945cebd58d3270a477b10d06dbe098b2b
+-- hash: 99ea3c270ae5926b861dc70abcf8a0d92d9c6156eb2ecb4941c169c164d311f7
 
 name:           gpwh
 version:        0.0.0
@@ -13,7 +13,8 @@ build-type:     Simple
 
 library
   exposed-modules:
-      Ch01.FirstProg
+      Lesson01.FirstProg
+      Lesson02
   other-modules:
       Paths_gpwh
   hs-source-dirs:
@@ -23,8 +24,8 @@ library
       base
   default-language: Haskell2010
 
-executable ch01-01
-  main-is: app/ch01/hello.hs
+executable lesson01-01
+  main-is: app/Lesson01/hello.hs
   other-modules:
       Paths_gpwh
   ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wredundant-constraints -Wtabs
@@ -32,8 +33,8 @@ executable ch01-01
       base
   default-language: Haskell2010
 
-executable ch01-email
-  main-is: app/ch01/FirstProg.hs
+executable lesson01-email
+  main-is: app/Lesson01/FirstProg.hs
   other-modules:
       Paths_gpwh
   ghc-options: -Wall -Wcompat -Wincomplete-uni-patterns -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wredundant-constraints -Wtabs

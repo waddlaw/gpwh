@@ -15,9 +15,9 @@ library:
   source-dirs: src
 
 executables:
-  ch01-01:
-    main: app/ch01/hello.hs
-  ch01-email:
-    main: app/ch01/FirstProg.hs
+  lesson01-01:
+    main: app/Lesson01/hello.hs
+  lesson01-email:
+    main: app/Lesson01/FirstProg.hs
     dependencies:
       - gpwh
