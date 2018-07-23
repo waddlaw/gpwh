@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Lesson01.FirstProg (createEmail)
+import Lesson01 (createEmail)
 
 main  :: IO ()
 main = do

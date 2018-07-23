@@ -1,4 +1,4 @@
-module Lesson01.FirstProg
+module Lesson01
   ( messyMain
   , createEmail
   ) where
