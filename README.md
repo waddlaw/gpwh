@@ -48,3 +48,7 @@ fourLetterAlphabetEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ```hs
 fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ```
+
+### P.185 16.19
+
+`description` のスペルミス
