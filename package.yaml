@@ -1,6 +1,7 @@
 name: gpwh
 dependencies:
   - base
+  - containers
 
 ghc-options:
 - -Wall
