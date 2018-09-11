@@ -52,3 +52,11 @@ fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ### P.185 16.19
 
 `description` のスペルミス
+
+### P.219 19.3
+
+出力結果に改行が足りない。
+
+### P.222 19.11
+
+`report` の型注釈に空白があった方が良いと思う
