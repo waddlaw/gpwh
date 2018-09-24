@@ -93,3 +93,7 @@ fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 
 - `(Real a)` の括弧は無くて良い
 - 基底部のイコールの左に空白欲しい
+
+### P.259 21.12
+
+`return` の後の空白
