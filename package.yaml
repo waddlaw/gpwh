@@ -1,7 +1,10 @@
 name: gpwh
 dependencies:
-  - base
-  - containers
+- base
+- bytestring
+- containers
+- random
+- text
 
 ghc-options:
 - -Wall
@@ -22,3 +25,5 @@ executables:
     main: app/Lesson01/FirstProg.hs
     dependencies:
       - gpwh
+  lesson25:
+    main: app/Lesson25.hs

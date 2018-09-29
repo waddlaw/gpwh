@@ -97,3 +97,7 @@ fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ### P.259 21.12
 
 `return` の後の空白
+
+### P.302 25.8
+
+`changed =` の後の空白
