@@ -101,3 +101,15 @@ fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ### P.302 25.8
 
 `changed =` の後の空白
+
+### P.309 26.1
+
+図の説明で `OverlodStrings` になっている。
+
+### P.314 26.2.1
+
+`□rst`, `□nd` になってる。
+
+### P.312 26.7
+
+`]` が真ん中に余分にある
