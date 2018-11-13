@@ -113,3 +113,17 @@ fourLetterEncoder :: [FourLetterAlphabet] -> [FourLetterAlphabet]
 ### P.312 26.7
 
 `]` が真ん中に余分にある
+
+### P.365 29.6
+
+```hs
+totalPrize :: [Int]
+totalPrize = pure (+) <*> doorPrize <*> boxPrize
+```
+
+### P.366 29.6
+
+```hs
+totalPrize :: [Int]
+totalPrize = pure (+) <*> doorPrize <*> boxPrize
+```
