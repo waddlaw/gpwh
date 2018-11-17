@@ -1,2 +1,2 @@
-resolver: lts-12.13
+resolver: lts-12.18
 extra-deps: []
