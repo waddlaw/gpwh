@@ -127,3 +127,16 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 totalPrize :: [Int]
 totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ```
+
+### P.403 32.1
+
+`::` ではなく `..`
+
+### P.406 32.1.1
+
+`guard(even value)` より `guard (even value)` の方が良い
+
+### P.407 32.3
+
+
+`guard(even nSquared)` より `guard (even nSquared)` の方が良い
