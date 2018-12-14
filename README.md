@@ -138,5 +138,48 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 
 ### P.407 32.3
 
-
 `guard(even nSquared)` より `guard (even nSquared)` の方が良い
+
+### P.413 33.1
+
+`firstName :: String`
+
+### P413 33.2
+
+`Sophomore` が正しい
+
+### P.415 33.5
+
+`repl` の結果も `Sophomore`
+
+### P.416 33.5
+
+`Sophomore`
+
+### P.419 33.11
+
+`dparis` は `dpairs` の間違い
+
+### P.419 33.12
+
+`joinData` のカッコいらない
+
+### P.420 33.14
+
+`finalResult` の3行目の `.` の横に空白欲しい
+
+### P.422 33.6
+
+`query1` の3行目の `.` の横に空白欲しい
+
+### P.424 33.19
+
+`maybeQuery1` の3行目の `.` の横に空白欲しい
+
+### P.424 33.20
+
+`maybeQuery2` の3行目の `.` の横に空白欲しい
+
+### P.427 33.27
+
+`getEnrollments` の `=` の空白
