@@ -1,2 +1,5 @@
 resolver: lts-12.18
+packages:
+- .
+- palindrome-checker
 extra-deps: []
