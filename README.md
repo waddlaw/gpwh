@@ -183,3 +183,7 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ### P.427 33.27
 
 `getEnrollments` の `=` の空白
+
+### P.437 34.7
+
+`preprcess` は `preProcess`
