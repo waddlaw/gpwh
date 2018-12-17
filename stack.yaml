@@ -3,4 +3,5 @@ packages:
 - .
 - palindrome-checker
 - palindrome-testing
+- primes
 extra-deps: []
