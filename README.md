@@ -187,3 +187,7 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ### P.437 34.7
 
 `preprcess` は `preProcess`
+
+### P.495 38.12
+
+`headaches-exe` が3箇所あるが、全て `primechecker-exe` の間違い
