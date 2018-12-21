@@ -191,3 +191,11 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ### P.495 38.12
 
 `headaches-exe` が3箇所あるが、全て `primechecker-exe` の間違い
+
+### P.521 40.20
+
+`Metadata` に謎の空白
+
+### P.521 40.22
+
+`print dataName` は不必要
