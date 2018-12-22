@@ -199,3 +199,19 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ### P.521 40.22
 
 `print dataName` は不必要
+
+### P.526 41.2
+
+`db-notes` ではなく `db-lesson`
+
+### P.526 41.2
+
+`db-lesso` ではなく `db-lesson` (フォントの問題)
+
+### P.531 41.8
+
+`print "user added"` のインデントがおかしい
+
+### P.532 41.10
+
+`(userId, toolId)` のインデントがおかしい
