@@ -215,3 +215,7 @@ totalPrize = pure (+) <*> doorPrize <*> boxPrize
 ### P.532 41.10
 
 `(userId, toolId)` のインデントがおかしい
+
+### P.558 42.4
+
+`first` が正しい
